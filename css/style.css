@@ -128,8 +128,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
+
+ @media screen and (max-width : 768px) {
+    /* Tablet */
+    .container {
+        width: 480px;
     }
- }
+}
+
+ 
+    
