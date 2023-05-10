@@ -148,8 +148,32 @@ img {
     }
     
     .row {
-        display: flex;
         flex-direction: column;
     }
-}
 
+    h1, h2{
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .lessons .col {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .why-us .col-left {
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
